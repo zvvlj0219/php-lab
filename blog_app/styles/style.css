@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* タイトル */
+.title-area {
+    margin-top: 100px;
+    color: white;
+}
+
+.title-area h1 {
+    font-size: 45px;
+    line-height: 10px;
+}
+
+.title-area p {
+    font-size: 25px;
+}
+
+/* フォーム */
+form {
+    margin-top: 50px;
+}
+
+.input-area {
+    width: 600px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(247, 241, 241);
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+/* 送信ボタン */
+form .submit {
+    height: 50px;
+    background: rgb(28, 109, 249);
+    opacity: 0.8;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background: rgb(73, 140, 255);
+    cursor: pointer;
+}
+
+.text-area {
+    width: 40%;
+    background-color: rgb(240, 233, 233);
+    opacity: 0.7;
+    margin: 100px auto 0 auto;
+    padding: 30px;
+    border-radius: 5%;
+    border: solid 1px white;
+    font-size: 28px;
+}
+
+a.back {
+    color: #fff;
+}
